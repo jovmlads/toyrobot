@@ -1,0 +1,41 @@
+tr,td {
+	width:100px;
+	height:100px;
+}
+
+table {
+    border-collapse: collapse;
+    margin:0 auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+#container {
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+h2 {
+	padding:20px 0 10px 0;
+}
+
+#commandInput {
+	width:300px;
+	height:25px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+#error-message{
+	color:red;
+}
+
+#report-message{
+	color:green;
+}
+

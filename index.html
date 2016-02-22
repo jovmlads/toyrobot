@@ -1,0 +1,31 @@
+<html>
+	<title>Beefy Robot Simulator</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="css/main.css">
+	<body>		
+		<div id="container">
+			<h2>Beefy Robot Simulator</h2>
+			<p>List of available commands and their formats:</p>
+			<ul>
+				<li>PLACE X,Y,F</li>
+				<li>MOVE</li>
+				<li>LEFT</li>
+				<li>RIGHT</li>
+				<li>REPORT</li>
+			</ul>
+			<p>The first valid command to Beefy is a PLACE command, after that, any sequence of commands may be issued, in any order, including another PLACE command. </p>	<p>Enter your command below (case sensitive):</p>
+			<input type="text" id="commandInput" value="" placeholder="Enter your command here">
+			<input id="buttonSubmit" name="buttonSubmit" type="button" value="Submit" />
+			<p id="error-message"></p>				
+			<p id="report-message"></p>				
+		</div>
+
+		<!-- scripts -->
+		<script src="js/validateCommand.js"></script>
+		<script src="js/movement.js"></script>
+		<script src="js/orientation.js"></script>
+		<script src="js/errors.js"></script>
+		<script src="js/report.js"></script>
+		<script src="js/main.js"></script>				
+	</body>
+</html>
